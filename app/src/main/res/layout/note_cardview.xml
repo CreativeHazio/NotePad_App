@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    android:layout_margin="7dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:id="@+id/note_cardview">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:maxLines="1"
+            android:text="Title"
+            android:ellipsize="end"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:id="@+id/title"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:text="This is the contents of the app"
+            android:id="@+id/contents"/>
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:text="November 7, 2022 11:04 PM"/>
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

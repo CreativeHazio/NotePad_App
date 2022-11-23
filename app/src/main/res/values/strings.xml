@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NotePad App</string>
+    <string name="notepad">Notepad</string>
+    <string name="note">Note</string>
+    <string name="title">Title</string>
+    <string name="note_down">Note something down</string>
+    <string name="search">Search</string>
+    <string name="undo">Undo Delete</string>
+    <string name="delete">Are you sure you want to delete</string>
+    <string name="search_notes">Search notes</string>
+</resources>

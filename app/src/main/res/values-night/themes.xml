@@ -17,4 +17,11 @@
         <item name="cardBackgroundColor">@color/soft_black</item>
 
     </style>
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/main_bggg</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:statusBarColor">#27587c</item>
+    </style>
 </resources>
